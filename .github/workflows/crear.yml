@@ -38,7 +38,7 @@ jobs:
 
     - name: construir la imagen de docker
       run: |
-        docker build -t ghcr.io/ronalfcito/hello-ronald:1.0.0 .
+        docker build -t ghcr.io/kamsantana/hello-kevin:1.0.0 .
 
     - name: Login en GitHub Container Registry
       run: |
